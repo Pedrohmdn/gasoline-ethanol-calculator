@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --background: #22272e;
+  --blue: #119cea;
+  --green: #00b63c;
+}
+
+main {
+  background-color: var(--background);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
